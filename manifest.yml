@@ -1,9 +1,9 @@
 ---
 applications:
-- name: ecad1511
+- name: ecad011
   random-route: true
   path: .
   memory: 512M
   instances: 1
-  host: ecad1511
+  host: ecad011
   domain: au-syd.mybluemix.net
