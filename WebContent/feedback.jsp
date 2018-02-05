@@ -130,7 +130,7 @@ try
 	else if(msg.equals("insert successfully"))
 	{
 		
-	String sql="SELECT * FROM feedback LIMIT 5";
+	String sql="SELECT * FROM feedback";
 			ResultSet rs=DBMan.select(sql);%>
 			<table border="2">
 			<th>ID</th>
